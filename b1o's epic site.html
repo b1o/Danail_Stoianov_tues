@@ -7,12 +7,17 @@
 	</head>
 	
 	<body background = "http://findgamewalls.com/wp-content/uploads/2013/07/Dota-2-Wallpaper-Art.jpg">
-		<div align = "center" id="div1">
-			<p>
+			<div align = "center">
 				<font size = "5">
 					<a href = "http://www.elsys-bg.org/"><b>The site of TUES !!!</b></a>
 				</font>
-			</p>
+			<br>
+				<button id = "b2" align = "center"> SHOW ME !</button>
+				<button id = "b1">Click to see the awesome pic !!</button>
+			</div>
+
+			<div align = "center" id="div1">
+	
 			<br>
 			
 			<table id = "t1"  border = "0" align = "left" cellpadding = "0" cellspacing = "0" summary = "Something fucked up ;/" width = "1050">
@@ -20,24 +25,32 @@
 					<td align = "center" width = "350"><font size = "6" color = '#ffffff'><b>Danail</b></font></td>
 					<td align = "center" width = "350"><font size = "6" color = '#ffffff'><b>Stoianov</b></font></td>
 					<td align = "center"><img  height = "350" onmouseout = "this.src = 'https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-prn2/1052559_606402332715701_809702631_o.jpg'"onmouseover = "this.src = 'http://navi-gaming.com/uploads/userfiles/images/Dendi_2.jpg' " alt = "Alexandar's picture" border = "2" src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-prn2/1052559_606402332715701_809702631_o.jpg"></td> 
-					<button id = "b1">Click to see the awesome pic !!</button>
+					
 				</tr>	
 					
 	
 			
 			</table>
-		</div>	
-			 
-
+		</div>
+	
+		
 		<script>
+			$ ('#b2').hide();
 			$ ('#b1').click(function() {
-				var parent = document.getElementById("div1");
-    				var child = document.getElementById("t1");
-				parent.removeChild(child);
-   				$('#b1').hide(200);
+				 $('#div1').hide();
+    				 $('#b1').hide();
+				 $('#b2').show();
 			});
+			
+			$ ('#b2').click(function() {
+     				$('#div1').show();
+      				$('#b2').hide();
+				$('#b1').show();
+   			});
+		
 		</script>
 		
+		</p>
 	
 		
 	</body>
