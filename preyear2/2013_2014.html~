@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<style>
+			img{
+				width:450px;
+			}
+		</style>
+	</head>
+	<body background = "#000000" />
+	<table>
+		<tr>
+			<td>
+			<FRONT COLOR = "#ff00ff">Website of tues:</front>
+			</td>
+		</tr>
+		<tr>
+			<td> <a href="http://www.elsys-bg.org/" target="_blank">Elsys website</a>.</td>
+		</tr>
+	</table>
+	<table align = center border="2" bordercolor = blue bgcolor = white width = "400" height = "50">
+		<caption>Table</caption>
+		<tr>
+			<td> Name</td>
+			<td> Last name </td>
+			<td> Picture </td>
+		</tr>
+			<td> Ivaylo </td>
+			<td> Hristov </td>
+			<td><img src="http://i.imgur.com/VbzajvB.jpg"/></td>
+		</tr>
+		</tr>
+            <td> Kaloyan </td>
+			<td> Stoykov </td>
+			<td><img src="http://i1361.photobucket.com/albums/r668/zombidust/IMAG0237copy_zpsb8806ad0.jpg"></td>
+		</tr>
+		<tr>
+	  			<td>Mihail</td>
+	  			<td>Kirilov</td>
+	  			<td><img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-frc1/1002507_635184193166018_2000344046_n.jpg"></td>
+
+			</tr>
+		<tr>
+			<td>Georgi</td>
+			<td>Iliev</td>
+            <td><img src="http://i.imgur.com/p4A7ER2.jpg"></td>
+		</tr>
+		<tr>
+			<td>Emil</td>
+			<td>Dudev</td>
+			<td><img src="https://raw.github.com/edudev/Emil_Dudev_tues/master/pic.jpg" alt="an image of myself" /></td>
+		</tr>
+		<tr>
+			<td>Spas</td>
+			<td>Spasov</td>
+			<td><img src="http://gdurl.com/z8bT"></td>
+		</tr>
+		<tr>
+			<td>Hristiqn</td>
+			<td>Zarkov</td>
+			<td><img alt="picture" src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-prn1/310542_211030075633939_1653758678_n.jpg"/></td> 
+		</tr>
+	</table>
+	</body>
+</html>
