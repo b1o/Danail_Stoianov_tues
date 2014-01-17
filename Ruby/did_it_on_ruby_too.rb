@@ -1,41 +1,40 @@
 require 'io/console'
 require 'time'
 
-def countdown seconds
-	private
-	@counter = 1
-	print "Countdown.."
-	while @counter <= seconds do
-		print "#{@counter}.."
-		sleep 1
-		@counter+=1
-	end
-	print "Go!\n"
-end
+=begin
+def bpm (clicks, seconds)
+	clicks
+end	
+=end
+
 
 y = 'y'
 while y == 'y' do
 	print "Times to press: "
 	times = gets.chomp
+	if times.instance_of? Integer
+		print "haha"
+	end
 	printf "Keys to press(2)"
 	firstkey = gets.chomp
 	secondkey = gets.chomp
 
-	i = 0
-	countdown 3
-	time_start = Time.new
-	while i <= times.to_i - 1
-		input = STDIN.getch
-		if input == firstkey or input == secondkey
-			i += 1
-			check = true
-		else
-			check = false
-			break
+	i = 0a
+	if STDIN.getch != nil
+		time_start = Time.new
+		while i <= times.to_i - 1
+			input = STDIN.getch
+			if input == firstkey or input == secondkey
+				i += 1
+				check = true
+			else
+				check = false
+				break
+			end
 		end
+		time_end = Time.new
 	end
-
-	time_end = Time.new
+	
 	if check == true
 		t = sprintf("%0.02f", (time_end - time_start))
 		print "You clicked #{times} clicks in #{t} seconds.\n"
@@ -45,6 +44,7 @@ while y == 'y' do
 
 	printf("Do you want to try again? (Y/N): ")
 	y = gets.chomp
+	y = y.downcase
 	if y != 'y'
 		y = 'n'
 	end
