@@ -12,9 +12,9 @@ y = 'y'
 while y == 'y' do
 	print "Times to press: "
 	times = gets.chomp
-	if times.instance_of? Integer
-		print "haha"
-	end
+	#if times.instance_of? Integer
+		#print "haha"
+	#end
 	printf "Keys to press(2)"
 	firstkey = gets.chomp
 	secondkey = gets.chomp
