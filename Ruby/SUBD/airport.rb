@@ -35,13 +35,13 @@ class Airport
 		puts "-----------------FLIGHTS-----------------"
 		
 		for i in 0..@flights.size - 1
-			print @flights[i][0] + "/  "
+			print "#{@flights[i][0]}/ "
 		end
 		puts
 		
 		for i in 1..@id.size - 1
 			for j in 0..@flights.size - 1
-				print @flights[j][i] + "/  "
+				print "#{@flights[j][i]}/ "
 
 			end
 			puts
