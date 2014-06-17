@@ -1,6 +1,4 @@
 require 'csv'
-require 'pp'
-
 
 class Airport
 	attr_accessor :id, :gate, :f_l, :time, :flights
