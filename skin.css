@@ -1,7 +1,7 @@
 #player,#player a{ color:#fff; }
 #player{ background:url(sizerAndVol.png); background-position:bottom; }
 #player .mainImage{ background:url(main.png); }
-#player {position: relative;}
+#player {position: absolute;}
 #player #baseLeft{ width:93px; }
 #player #baseRight{ width:145px;}
 #player .button{  width:26px; }
